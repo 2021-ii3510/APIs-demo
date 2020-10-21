@@ -39,8 +39,8 @@ public class VolleyActivity extends AppCompatActivity {
                             int jokeId = value.getInt("id");
                             String joke = value.getString("joke");
 
-                            jokeIdTextView.setText(getString(R.string.joke_id) + jokeId);
-                            jokeTextView.setText(getString(R.string.joke_content) + joke);
+                            jokeIdTextView.setText(getString(R.string.joke_id) + " " + jokeId);
+                            jokeTextView.setText(getString(R.string.joke_content) + " " + joke);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
