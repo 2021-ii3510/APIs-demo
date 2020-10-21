@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">APIs Demo</string>
+    <string name="joke_id">Joke ID: </string>
+    <string name="joke_content">Joke: </string>
+</resources>
